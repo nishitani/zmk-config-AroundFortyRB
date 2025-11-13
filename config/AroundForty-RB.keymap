@@ -30,7 +30,7 @@
 &none          &kp ESC       &kp LEFT_WIN  &kp LCTRL     &kp LALT      &kp SPACE  &kp ENTER  &trans  &kp BACKSPACE  &trans                &trans
             >;
 
-            sensor-bindings = <&none>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         LAYER_2 {
@@ -41,7 +41,7 @@
 &trans       &trans            &trans            &trans            &trans            &mo 3   &mo 3           &trans          &trans           &trans            &none
             >;
 
-            sensor-bindings = <&none>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         LAYER_3 {
