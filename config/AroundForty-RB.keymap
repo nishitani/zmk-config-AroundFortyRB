@@ -27,7 +27,7 @@
 &kp ESC        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0             &kp F7     &kp F8  &kp F9         &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)
 &kp TAB        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS                &kp F4     &kp F5  &kp F6         &kp LS(BACKSLASH)     &kp LS(SLASH)
 &kp LS(GRAVE)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &trans     &kp F1     &kp F2  &kp F3         &kp LS(SINGLE_QUOTE)  &kp DEL
-&trans         &kp ESC       &kp LEFT_WIN  &kp LCTRL     &kp LALT      &kp SPACE  &kp ENTER  &trans  &kp BACKSPACE  &trans                &trans
+&none          &kp ESC       &kp LEFT_WIN  &kp LCTRL     &kp LALT      &kp SPACE  &kp ENTER  &trans  &kp BACKSPACE  &trans                &trans
             >;
 
             sensor-bindings = <&none>;
@@ -38,7 +38,7 @@
 &kp INS      &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)          &kp PAGE_UP     &kp UP_ARROW    &mkp MB3         &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp LS(TAB)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &kp LS(MINUS)             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSLASH     &kp SLASH
 &kp GRAVE    &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(EQUAL)     &trans  &kp PAGE_DOWN   &mkp MB1        &mkp MB2         &kp SINGLE_QUOTE  &kp DEL
-&trans       &trans            &trans            &trans            &trans            &mo 3   &mo 3           &trans          &trans           &trans            &trans
+&trans       &trans            &trans            &trans            &trans            &mo 3   &mo 3           &trans          &trans           &trans            &none
             >;
 
             sensor-bindings = <&none>;
